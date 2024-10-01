@@ -1,6 +1,12 @@
+:root {
+  --c-snow: #fff;
+  --c-soot: #181818;
+  --c-soot-light: #999;
+  --c-accent-1: aquamarine;
+  --c-accent-2: lightcoral;
+}
+
 html, body, p, ul, li, h1, h2, h3, div, p, input, button, nav, form, main {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -10,6 +16,7 @@ a {
 
 ul, li {
   list-style: none;
+  padding: 0;
 }
 
 input, button {
@@ -33,6 +40,9 @@ html, body, #root {
 }
 
 html, body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  font-size: 10px;
+  background-color: var(--c-soot);
+  color: var(--c-snow);
 }

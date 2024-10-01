@@ -1,0 +1,18 @@
+.wrapper {
+    position: relative;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--c-snow);
+    color: var(--c-soot);
+}
+
+.completed {
+    background-color: var(--c-accent-1);
+}
+
+.tip {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    color: var(--c-accent-2);
+}
